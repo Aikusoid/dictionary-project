@@ -49,14 +49,16 @@
 }
 
 .Meaning {
-  background: #bdbdbd71;
+  background: #ffffff71;
   border-radius: 10px;
   margin-top: 25px;
   padding: 15px;
+  box-shadow: 2px 2px 35px #272e4f51;
+  color: #272e4f;
 }
 
 .Meaning:hover {
-  background: #ff5e3a24;
+  background: #ffd8d024;
   transition: all 350ms ease-in-out;
 }
 
@@ -65,7 +67,11 @@
 }
 
 .Meaning .definition {
-  margin-left: 20px;
+  margin-left: 10px;
+}
+
+.Meaning strong.definition {
+  padding-right: 10px;
 }
 
 .Meaning .example {
