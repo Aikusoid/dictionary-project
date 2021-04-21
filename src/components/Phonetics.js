@@ -7,7 +7,7 @@ export default function Phonetics(props){
                 {props.phonetics.map((phonetic, index)=>{
                     return(
                         <p key={index} >
-                        <a href={phonetic.audio} target="_blank" rel="noreferrer">
+                        <a className="btn" href={phonetic.audio} target="_blank" rel="noreferrer">
                             <i className="fas fa-volume-up"></i>
                         </a>
                         {phonetic.text}

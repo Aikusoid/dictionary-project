@@ -11,6 +11,8 @@ export default function Dictionary() {
     setResults(response.data[0]);
   }
 
+  // photos api key pexels: 563492ad6f9170000100000195e3babaf5504ae1b45e47fcc6683072
+
   function submitHandler(event) {
     event.preventDefault();
 
