@@ -8,11 +8,6 @@
   margin: 0 auto;
 }
 
-.App-footer {
-  margin: 30px 0;
-  text-align: center;
-}
-
 .Dictionary form {
   display: flex;
   justify-content: space-between;
@@ -137,4 +132,9 @@ section {
   display: block;
   margin: 15px 0;
   border-radius: 5px;
+}
+
+.Footer {
+  margin: 30px 0;
+  text-align: center;
 }
