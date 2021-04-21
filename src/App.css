@@ -1,7 +1,11 @@
+.App {
+  max-width: 920px;
+  margin: 0 auto;
+}
 .App-logo {
-  max-width: 600px;
+  max-width: 100%;
   display: block;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .App-footer {
@@ -51,9 +55,8 @@
 .Meaning {
   background: #ffffff71;
   border-radius: 10px;
-  margin: 25px;
+  margin: 25px 0;
   padding: 15px;
-  padding-bottom: 35px;
   box-shadow: 2px 2px 35px #272e4f51;
   color: #272e4f;
 }
@@ -68,13 +71,13 @@
 }
 
 .Meaning .definition {
-  margin-left: 20px;
+  margin: 20px;
 }
 
 .Meaning .example {
   display: block;
   text-align: center;
-  color: #2c365de8;
+  color: #2c365db4;
   font-weight: bold;
 }
 
@@ -83,6 +86,7 @@
 }
 
 .Synonyms {
+  color: #2c365d;
   list-style: none;
   margin: 10px 0px;
   padding: 0;
@@ -101,8 +105,8 @@
 }
 
 .Synonyms li {
-  padding-left: 10px;
-  font-style: italic;
+  padding-left: 20px;
+  /* font-style: italic; */
   display: inline-block;
 }
 
@@ -111,7 +115,8 @@
   display: flex;
   align-items: center;
   font-size: 20px;
-  color: #233c50c9;
+  color: #233c50a0;
+  font-weight: bold;
 }
 
 .Phonetics a {

@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 import logo from "./logo.png";
 import Dictionary from "./components/Dictionary";
 import "./App.css";
@@ -10,7 +10,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <Dictionary />
+        <Dictionary defaultKeyword="wine" />
         <footer className="App-footer">Coded by Aigerim Adrysheva</footer>
       </div>
     </div>
